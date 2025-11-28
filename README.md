@@ -72,10 +72,6 @@ cv2.putText(frame, f'{label} ({confidence:.2f})', (10, 30),
 cv2.imshow("Clasificador en vivo", frame)
 ```
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/54835981/placeholder-image.png" width="480" alt="Clasificación de imágenes en tiempo real">
-</p>
-
 ## Buenas Prácticas Implementadas
 
 - Separación clara entre carga de modelo, preprocesamiento y predicción.
